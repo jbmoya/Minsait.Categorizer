@@ -1,0 +1,52 @@
+{
+  "name": "Minsait.Categorizer",
+  "description": "Libreria Uipath para categorizar con un modelo ML.Net y un algoritmo FastTree",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "Categorizer180": "1.0.1",
+    "UiPath.System.Activities": "22.10.4",
+    "UiPath.UIAutomation.Activities": "22.10.5"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.5.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/AF_Minsait_LOG_RGB_POS_vertical.png"
+  },
+  "targetFramework": "Windows"
+}
